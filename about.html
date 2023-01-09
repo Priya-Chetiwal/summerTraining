@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+<style>
+    h2{
+        
+         background-color: deepskyblue;
+        box-sizing: border-box;
+    font-display:initial;
+    size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size:70px;
+        font-family: cursive;
+    }
+     body{
+        background-color: azure;
+        
+     }
+     .about1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        max-width: 500px;
+        
+        text-align: justify;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+
+
+     }
+     .width{
+        width: 1200px;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        display: flex;
+        justify-content: space-between;
+     }
+     .img{
+        align-self: center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        display: block;
+     }
+     .overlay {
+  position: absolute; 
+  bottom: 30px; 
+  left: 40px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-top: 10px;
+  border-radius:50%;
+  height: 180px;
+  width: 180px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgOver:hover .overlay {
+  opacity: 1;
+}
+     .imgOver{
+        position: relative;
+        width: 300px;
+        height: 300px;
+     }
+</style>
+<body >
+    <H2>About Us</H2>
+   <div class="width">
+    <div class="about1" > 
+        <div class="imgOver">
+            <img src="havmor.jpg" width="300px" height="300px" class="img">
+            <div class="overlay">Sukhwinder</div>
+        </div>
+    orem ipsum dolor sit amet consectetur adipisicing elit. Velit rerum consequuntur 
+    repellendus. Voluptate voluptatem officiis reiciendis architecto repudiandae alias 
+    cumque suscipit ad sunt, dolorem omnis dignissimos placeat commodi asperiores 
+    blanditiis.</div>
+    <div class="about1" > 
+        <div class="imgOver">
+            <img src="havmor.jpg" width="300px" height="300px" class="img">
+            <div class="overlay">AngelPriya</div>
+        </div>
+    orem ipsum dolor sit amet consectetur adipisicing elit. Velit rerum consequuntur 
+    repellendus. Voluptate voluptatem officiis reiciendis architecto repudiandae alias 
+    cumque suscipit ad sunt, dolorem omnis dignissimos placeat commodi asperiores 
+    blanditiis.</div>
+</div>
+</body>
+</html>
